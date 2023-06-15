@@ -13,31 +13,34 @@ body{
 }
 
 /*-------------------------------------------------*/
-header{
-    position: absolute;/*-- to have the header be inside/on top of allInfo--*/
 
-}
+@media screen and (min-width: 500px) {
+    
+    header{
+        position: absolute;/*-- to have the header be inside/on top of allInfo--*/
+
+    }
 
 
-h2{
-    border-bottom: 2px solid black; /*--underline title of subject--*/
-    width:max-content;/*-- define underline to take max width of content--*/
-}
+    h2{
+        border-bottom: 2px solid black; /*--underline title of subject--*/
+        width:max-content;/*-- define underline to take max width of content--*/
+    }
 
-#allInfo{
-    display: flex; /*-- to have both "aboutMe" and "accomplishment" next to eachother--*/
-    justify-content: center;/*--to have the header in the middle of "aboutMe" and "accomplishment"--*/
+    #allInfo{
+        display: flex; /*-- to have both "aboutMe" and "accomplishment" next to eachother--*/
+        justify-content: center;/*--to have the header in the middle of "aboutMe" and "accomplishment"--*/
+    }
+    #aboutMe{
+        width: 50%;/*--make "aboutMe" take up to 50%of the screen--*/
+    }
+    #accomplishment{
+        width: 50%;/*--make "accomplishment" take up to 50%of the screen--*/
+    }
+    #aboutMe, #accomplishment{
+        padding-top: 100px;/*-- to have both container remain under headder, but have the text be lower--*/
+    }
 }
-#aboutMe{
-    width: 50%;/*--make "aboutMe" take up to 50%of the screen--*/
-}
-#accomplishment{
-    width: 50%;/*--make "accomplishment" take up to 50%of the screen--*/
-}
-#aboutMe, #accomplishment{
-    padding-top: 100px;/*-- to have both container remain under headder, but have the text be lower--*/
-}
-
 
 
 
