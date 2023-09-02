@@ -1,5 +1,5 @@
 <?php
-include 'header.tpl.php';
+include __DIR__ . '/../layout/header.tpl.php';
 ?>
 <main class="about-section" id="about">
   <div class="container">
@@ -11,5 +11,5 @@ include 'header.tpl.php';
   </div>
 </main>
 <?php
-include 'footer.tpl.php';
+include '../layout/footer.tpl.php';
 ?>
