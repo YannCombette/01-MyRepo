@@ -1,37 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Yann Combette</title>
-    <link rel="stylesheet" href="../CSS/reboot.css">
-    <link rel="stylesheet" href="../CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yann Combette - Backend Developer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(29, 29, 63);
+    }
+    .navbar {
+      background-color: rgba(29, 29, 63, 0.8); /* Slightly lighter with 80% opacity */
+      overflow: hidden;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: rgb(8, 248, 128);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .navbar .right-links {
+      float: right;
+    }
+    .intro {
+      text-align: center;
+      margin-top: 100px;
+      background-color: rgb(29, 29, 63);
+      padding: 30px;
+    }
+    .name {
+      font-size: 11vw;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: white;
+    }
+    .subtitle {
+      font-size: 3vw;
+      margin-top: 10px;
+    }
+    .cv-button {
+      display: inline-block;
+      margin-top: 2vw;
+      padding: 1vw 2vw;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <header>
-    <a href="" class="lien">About</a>
-    <a href="" class="lien">Experience</a>
-    <a href="" class="lien">Work</a>
-    <a href="" class="lien">Contact</a>
-    </header>
-    <main>
-        <div id="main">
-            <div>
-            <p><strong>Bonjour ! Je m'appelle </strong></p>
-            </div>
-            <div>
-            <h1>Yann Combette</h1>
-            <h2>Je crée des sites web </h2>
-            </div>
-            <div id='mDescription'>
-                <p>Mon objectif est de renforcer mes connaissances en développement web et de me préparer pour une carrière prometteuse dans ce domaine en constante évolution.</p>
-            </div>
-        </div>
-    </main>
-    <footer>
-
-
-    </footer>
+  <div class="navbar">
+    <div class="right-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+  <div class="intro">
+    <div class="name">Yann Combette</div>
+    <div class="subtitle">Backend Developer</div>
+    <a class="cv-button" href="link-to-your-cv.pdf" download>Download CV</a>
+  </div>
 </body>
-
 </html>
